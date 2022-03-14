@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class DataManager : MonoBehaviour
 {
-    public static DataManager Instance;
+    public static DataManager Instance { get; private set; }
 
     public string currentPlayerName;
 
